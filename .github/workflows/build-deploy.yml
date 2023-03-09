@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: steam
-          path: "${{ github.workspace }}/target/*.ear"
+          path: "${{ github.workspace }}/*.ear"
